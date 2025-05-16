@@ -76,10 +76,10 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > The variable "hireDrovers" is being defined as "drovers". 
+ // The value of the drovers variable is an array of objects from the function hireDrovers once the argument "cattleToDrive" is being passed through the function.
 
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > 'for (const drover of drovers)' is being defined so that only the object "drover" in the array of "drovers" will be called.
+// drover is an object in the array of multiple objects called drovers. 
 
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > https://www.loom.com/share/34cae821a9174a119536387b2a4a60b2?sid=6e96cbaa-3409-4836-9bb0-476a3009fd66
@@ -91,13 +91,13 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > In this for loop, forestNumber is being stored in the areas.forests array. Inside the curly braces, we are using the .push method to add the value of "forest" to the variable forestNumber.
+   > //In this for loop, forestNumber is being stored in the journey array. We are using the .push method to add the object "forest" to the journey array.
 
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Within the database module, the value of 'database' we are using an array to define the identification number of the cattle, the type of breed and as well as their name. We do this so that later on we can call back to the array so that the functions use the correct information. 
+   > //the variable database has a value of an object that contains two properties that store two separate arrays.
 
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-> (herdSize) is defining the function 'hireDrovers' and it is getting its value within the function. 
+>// (herdSize) is a placeholder for the function 'hireDrovers' and it is getting its value once the function is invoked by the argument cattleToDrive.
 
 ## When You Are Done
 
